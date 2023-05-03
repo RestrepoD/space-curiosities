@@ -1,0 +1,34 @@
+.switch_btn_cont {
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.705);
+    background-color:  #fff;
+}
+button:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    transform: scale(110%);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.459);
+}
+@media screen and (min-width: 1440px) {
+    .switch_btn_cont {
+        font-size: 3.5rem;
+        height: 80px;
+        width: 80px;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .switch_btn_cont {
+        font-size: 6rem;
+        height: 120px;
+        width: 120px;
+    }
+}
