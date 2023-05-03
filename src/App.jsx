@@ -3,8 +3,8 @@ import {getRandomNumber} from "./utils/getRandomNumber";
 import "./App.css";
 import phrases from "./assets/phrases.json";
 import bg_imgs from "./assets/bg_imgs.json";
-import Phrase from "./components/Phrase/phrase";
-import Button from "./components/Button/Button";
+import Phrase from "./components/Phrase/Phrase.jsx";
+import Button from "./components/Button/Button.jsx";
 function App() {
   const getRandomPhrase = () => phrases[getRandomNumber(phrases.length-1)];
   const [phraseObject, setPhraseObject] = useState(getRandomPhrase());
